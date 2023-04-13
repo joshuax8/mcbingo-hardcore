@@ -16,8 +16,8 @@ Overworld = {name: "Overworld", max: [25, 25, 24, 21, 18], line: true},
 Nether = {name: "Nether", max: [0, 2, 5, 10, 15], line: true},
 End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
-Death = {name: "Death", max: [0, 0, 0, 1, 5], line: true},
-Brute = {name: "Brute", max: [0, 0, 0, 1, 5], line: true};
+Death = {name: "Death", max: [0, 0, 0, 0, 0], line: true},
+Brute = {name: "Brute", max: [0, 0, 0, 0, 0], line: true};
 
 var bingoList_hc = [
 

@@ -18,7 +18,7 @@ End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
 Death = {name: "Death", max: [0, 0, 0, 1, 5], line: true};
 
-var bingoList_v4 = [
+var bingoList_hc = [
 
 // Very Easy (0)
 [

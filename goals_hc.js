@@ -16,8 +16,6 @@ Overworld = {name: "Overworld", max: [25, 25, 24, 21, 18], line: true},
 Nether = {name: "Nether", max: [0, 2, 5, 10, 15], line: true},
 End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
-Death = {name: "Death", max: [0, 0, 0, 0, 0], line: true},
-Brute = {name: "Brute", max: [0, 0, 0, 0, 0], line: true};
 
 var bingoList_hc = [
 
@@ -303,8 +301,6 @@ var bingoList_hc = [
 	{name: "Potion of the Turtle Master", infrequency: 12, reactant: ["Pacifist"], tags: [Item, Nether, Ocean, Overworld, Combat]},
 	{name: "Finish by jumping from top to bottom of the world", tooltiptext: "Dig a hole to Bedrock, build to Y=256 (height limit), then jump from top to bottom at the end of the Bingo.", tooltipimg: "Goal Tooltip Images/FinishTopToBottom.jpg", tags: [Action, Build, Overworld, Finish]},
 	{name: "Vegetarian", tooltiptext: "Never eat meat, including fish.", tooltipimg: "Goal Tooltip Images/NoFish.jpg", antisynergy: ["Food"], tags: [Never, Action], catalyst: ["EatMeat"]},
-	{name: "Kill yourself with your own arrow", reactant: ["Pacifist"], tags: [Action, Death]},
-	{name: "Get a '... whilst trying to escape ...' Death message", tooltiptext: "Example: 'PLAYER' drowned whilst trying to escape a Skeleton.", tags: [Action, Death]},
 	{name: "Finish on top of the world", tooltiptext: "Build up to Y=256 (height limit) and stand on the top at the end of the Bingo.", tooltipimg: "Goal Tooltip Images/FinishTop.jpg", tags: [Action, Build, Finish]},
 	{name: "Kill a hostile mob with Gravel", reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat]},
 	{name: "Kill a hostile mob with Sand", reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat, Overworld]},
@@ -397,7 +393,6 @@ var bingoList_hc = [
 	{name: "Damage a Strider with Water", tags: [Action, Nether]},
 	{name: "(6-15) Bamboo", tags: [Item, Overworld, RareBiome]},
 	{name: "Crying Obsidian", tags: [Item]},
-	{name: "Kill yourself with an Ender Pearl", tooltiptext: "Need to die to the small fall damage taken from using a Pearl.", tooltipimg: "Goal Tooltip Images/EnderPearl.jpg", reactant: ["Pacifist"], tags: [Action, Death]},
 	{name: "Grass Block", tooltiptext: "If you don't have Silk Touch, I know a guy who might pick one up for you...", tooltipimg: "Goal Tooltip Images/GrassBlock.jpg", tags: [Item, Overworld]},
 	{name: "Bounce on a Slime Block", tooltiptext: "Get a Slime Block, place it on the ground and give it a good old bouncin' on.", tooltipimg: "Goal Tooltip Images/SlimeBlock.jpg", tags: [Action, Overworld]},
 	{name: "Full Gold Armour", tags: [Item]},
@@ -442,7 +437,6 @@ var bingoList_hc = [
 	{name: "Conduit", tags: [Item, Ocean, Overworld]},
 	{name: "(2-5) types of Dead Coral Blocks", tags: [Item, Ocean, RareBiome, Overworld]},
 	{name: "(16-32) Sea Pickles", tags: [Item, Ocean, RareBiome, Overworld]},
-	{name: "Get a '... didn't want to live in the same world as ...' Death message", tags: [Action, Death]},
 	{name: "Cookie", tags: [Item, Overworld]},
 	{name: "Grow a Full Jungle Tree", tags: [Action, RareBiome, Overworld]},
 	{name: "(2-10) Prismarine Shards", infrequency: 2, tags: [Item, Ocean, Overworld]},
@@ -457,7 +451,6 @@ var bingoList_hc = [
 	{name: "(5-16) Dragon's Breath", tags: [Item, Combat, End]},
 	{name: "Dragon Egg", tags: [Item, Combat, End]},
 	{name: "Complete a full size Map", antisynergy: ["CompleteMap"], tags: [Action, Overworld]},
-	{name: "Be killed by a Villager", tooltiptext: "Sometimes you need to DISPENSE some DEFENCE.", tags: [Village, Overworld, Stat, Combat, Death]},
 	{name: "Save yourself with a Totem of Undying", tags: [Item, Overworld]},
 	{name: "Every type of Sword", infrequency: 2, antisynergy: ["EverySword"], tooltiptext: "Wooden, Gold, Iron, Diamond and yes, even Netherite.", tags: [Item, Nether]},
 	{name: "Every type of Pickaxe", infrequency: 2, antisynergy: ["EveryPickaxe"], tooltiptext: "Wooden, Gold, Iron, Diamond and yes, even Netherite.", tags: [Item, Nether]},

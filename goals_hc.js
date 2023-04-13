@@ -467,7 +467,6 @@ var bingoList_hc = [
 	{name: "Wither Skull", reactant: ["Pacifist"], tags: [Item, Nether, Combat, RareBiome]},
 	{name: "Gilded Blackstone", tags: [Item, Nether, RareBiome]},
 	{name: "Make a Compass point to a Lodestone", tags: [Action, Nether]},
-	{name: "Give a Piglin Brute an Enchanted Axe", tags: [Action, Nether, Combat, RareBiome, Brute]},
 	{name: "Build a 6x6 Scaffolding n Shape (not counting corners)", tooltiptext: "Width/height of the inside frame, disregarding corners.", tooltipimg: "Goal Tooltip Images/ScaffingN.jpg", tags: [Build, Overworld]},
 	{name: "(2-5) Honey Blocks", antisynergy: ["Honey"], infrequency: 2, tags: [Action, Overworld]},
 	{name: "(6-15) Honeycomb Blocks", antisynergy: ["Honeycomb"], infrequency: 2, tags: [Action, Overworld]},

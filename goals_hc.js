@@ -16,7 +16,8 @@ Overworld = {name: "Overworld", max: [25, 25, 24, 21, 18], line: true},
 Nether = {name: "Nether", max: [0, 2, 5, 10, 15], line: true},
 End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
-Death = {name: "Death", max: [0, 0, 0, 1, 5], line: true};
+Death = {name: "Death", max: [0, 0, 0, 1, 5], line: true},
+Brute = {name: "Brute", max: [0, 0, 0, 1, 5], line: true};
 
 var bingoList_hc = [
 
@@ -473,7 +474,7 @@ var bingoList_hc = [
 	{name: "Wither Skull", reactant: ["Pacifist"], tags: [Item, Nether, Combat, RareBiome]},
 	{name: "Gilded Blackstone", tags: [Item, Nether, RareBiome]},
 	{name: "Make a Compass point to a Lodestone", tags: [Action, Nether]},
-	{name: "Give a Piglin Brute an Enchanted Axe", tags: [Action, Nether, Combat, RareBiome]},
+	{name: "Give a Piglin Brute an Enchanted Axe", tags: [Action, Nether, Combat, RareBiome, Brute]},
 	{name: "Build a 6x6 Scaffolding n Shape (not counting corners)", tooltiptext: "Width/height of the inside frame, disregarding corners.", tooltipimg: "Goal Tooltip Images/ScaffingN.jpg", tags: [Build, Overworld]},
 	{name: "(2-5) Honey Blocks", antisynergy: ["Honey"], infrequency: 2, tags: [Action, Overworld]},
 	{name: "(6-15) Honeycomb Blocks", antisynergy: ["Honeycomb"], infrequency: 2, tags: [Action, Overworld]},

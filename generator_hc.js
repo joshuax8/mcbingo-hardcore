@@ -169,10 +169,10 @@ var generator_hc = function(layout, difficulty, bingoList)
 						tagCount[tag.name] = 0;
 					}
 					// Otherwise check if it's higher than it should be or is Death tag
-					else if (tagCount[tag.name] >= tag.max[difficulty - 1] || tag.name == 'Death')
+					else if (tagCount[tag.name] >= tag.max[difficulty - 1] || tag.name == 'Death'|| tag.name == 'Brute')
 					{
 						// If we've got too many of that tag, get a new goal
-						console.log(tag.name + " max reached with " + tagCount[tag.name] + " on the board or is Death goal");
+						console.log(tag.name + " max reached with " + tagCount[tag.name] + " on the board or is Death/Brute goal");
 						continue GoalGen;
 					}
 				}
